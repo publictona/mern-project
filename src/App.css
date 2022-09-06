@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +32,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding:15px;
+  text-align:justify;
+ 
+
+}
+.nav-ul li a{
+  color: rgb(92, 163, 12);
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul{
+  background-color: black;
+  margin: 0;
+  padding: 5px;
+}
+
+.footer{
+  color: rgb(143, 232, 35);
+  padding: 5px;
+  text-decoration: none; 
+
+}
+.footer{
+  background-color: rgb(30, 29, 29);
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+}
+
+.inputfilled{
+  display:block;
+ 
+  width: 300px;
+  margin: 25px;
+  padding: 8px; 
+  border: 1px solid grey;
+}
+.signup{
+  padding-left: 100px;
+}
+.signupbtn {
+  background-color: #7562e0;
+  width: 4cm;
+  height: 1cm;
+  margin-left:10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.nav-left {
+  text-align:left;
+}
+
+.logoImg {
+  width:50px;
+  float: left;
+  border-radius: 50px;
+  margin-top: 3px;
+  
+
 }
